@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:milliy_shifo/core/utils/app_colors.dart';
 
-import '../../../core/utils/mediaquery_meneger.dart';
+import '../../../../../core/utils/mediaquery_meneger.dart';
 
 class Popularspecialisations extends StatelessWidget {
   final IconData icones;

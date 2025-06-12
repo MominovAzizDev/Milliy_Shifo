@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/utils/app_colors.dart';
-import '../../../core/utils/mediaquery_meneger.dart';
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/mediaquery_meneger.dart';
 
 class Neardoctors extends StatelessWidget {
   final String images;
@@ -22,7 +22,7 @@ class Neardoctors extends StatelessWidget {
       children: [
         Container(
           width: 200,
-          height: 240,
+          height: 250,
           child: Card(
             surfaceTintColor: AppColors.wordColor,
             child: Column(
@@ -70,16 +70,14 @@ class Neardoctors extends StatelessWidget {
           left: 60,
           child: Column(
             children: [
-              Card(
-                child: TextButton(
-                  style: TextButton.styleFrom(
-                    backgroundColor: AppColors.enterButtonBack,
-                  ),
-                  onPressed: () {},
-                  child: Icon(
-                    Icons.arrow_upward_outlined,
-                    color: AppColors.backColor,
-                  ),
+              TextButton(
+                style: TextButton.styleFrom(
+                  backgroundColor: AppColors.enterButtonBack,
+                ),
+                onPressed: () {},
+                child: Icon(
+                  Icons.arrow_upward_outlined,
+                  color: AppColors.backColor,
                 ),
               ),
             ],

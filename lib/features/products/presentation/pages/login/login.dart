@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:milliy_shifo/core/utils/mediaquery_meneger.dart';
-import 'package:milliy_shifo/presentation/pages/login/verificationcode.dart';
+import 'package:milliy_shifo/features/products/presentation/pages/login/verificationcode.dart';
 
 import '../../widgets/buttons/enter_main_button.dart';
 import '../register/create_accaunt.dart';

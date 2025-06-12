@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:milliy_shifo/core/utils/mediaquery_meneger.dart';
-import 'package:milliy_shifo/presentation/pages/splash/welcome_page.dart';
+import 'package:milliy_shifo/features/products/presentation/pages/splash/welcome_page.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});

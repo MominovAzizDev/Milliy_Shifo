@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/utils/app_colors.dart';
-import '../../../core/utils/mediaquery_meneger.dart';
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/mediaquery_meneger.dart';
 import '../buttons/enter_main_button.dart';
 
 class Doctorcard extends StatelessWidget {
@@ -21,19 +21,22 @@ class Doctorcard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: MediaqueryMeneger.height(20),
+      height: MediaqueryMeneger.height(17),
       child: Card(
         child: Column(
           children: [
             ListTile(
-              leading: CircleAvatar(backgroundImage: AssetImage(images)),
+              leading: CircleAvatar(
+                maxRadius: 30,
+                backgroundImage: AssetImage(images),
+              ),
               title: Text(
                 name,
-                style: TextStyle(fontSize: MediaqueryMeneger.fontSize(15)),
+                style: TextStyle(fontSize: MediaqueryMeneger.fontSize(20)),
               ),
               subtitle: Text(
                 jobs,
-                style: TextStyle(fontSize: MediaqueryMeneger.fontSize(13)),
+                style: TextStyle(fontSize: MediaqueryMeneger.fontSize(15)),
               ),
               trailing: IconButton(
                 onPressed: () {},
@@ -47,7 +50,7 @@ class Doctorcard extends StatelessWidget {
                   SizedBox(width: 10),
                   Text(
                     day,
-                    style: TextStyle(fontSize: MediaqueryMeneger.fontSize(13)),
+                    style: TextStyle(fontSize: MediaqueryMeneger.fontSize(15)),
                   ),
                 ],
               ),
@@ -57,7 +60,7 @@ class Doctorcard extends StatelessWidget {
                   SizedBox(width: 10),
                   Text(
                     typeofmeeting,
-                    style: TextStyle(fontSize: MediaqueryMeneger.fontSize(13)),
+                    style: TextStyle(fontSize: MediaqueryMeneger.fontSize(15)),
                   ),
                 ],
               ),

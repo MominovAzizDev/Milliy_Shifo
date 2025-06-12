@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:milliy_shifo/core/utils/mediaquery_meneger.dart';
-import 'package:milliy_shifo/presentation/pages/register/succesfully.dart';
+import 'package:milliy_shifo/features/products/presentation/pages/register/succesfully.dart';
 
 import '../../widgets/buttons/enter_main_button.dart';
 import '../../widgets/buttons/outline_button_page.dart';
